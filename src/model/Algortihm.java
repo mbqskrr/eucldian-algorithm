@@ -34,15 +34,11 @@ public class Algortihm {
 				int temp = r;
 				r = minor % r;
 				minor = temp;
-				System.out.println(minor + " y " + r);
 			}
 
-		}
-		
+		}		
 		euclid = tempR;
-		
 		return euclid;
-		
 	}
 	
 	
